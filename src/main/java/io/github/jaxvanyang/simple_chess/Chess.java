@@ -26,6 +26,7 @@ import org.slf4j.Logger;
 @Mod(Chess.MODID)
 public class Chess {
     public static final String MODID = "simple_chess";
+    public static final Logger LOGGER = LogUtils.getLogger();
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     public static final DeferredBlock<Block> WHITE_BISHOP = BLOCKS.registerBlock("white_bishop", Bishop::new, BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).strength(0.8F, 0.8F).requiresCorrectToolForDrops());
     public static final DeferredBlock<Block> WHITE_KING = BLOCKS.registerBlock("white_king", King::new, BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).strength(0.8F, 0.8F).requiresCorrectToolForDrops());
@@ -39,7 +40,6 @@ public class Chess {
     public static final DeferredBlock<Block> BLACK_PAWN = BLOCKS.registerBlock("black_pawn", Pawn::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).strength(1.5F, 6F).requiresCorrectToolForDrops());
     public static final DeferredBlock<Block> BLACK_QUEEN = BLOCKS.registerBlock("black_queen", Queen::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).strength(1.5F, 6F).requiresCorrectToolForDrops());
     public static final DeferredBlock<Block> BLACK_ROOK = BLOCKS.registerBlock("black_rook", Rook::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).strength(1.5F, 6F).requiresCorrectToolForDrops());
-    // Create a Deferred Register to hold Items which will all be registered under the "chess" namespace
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
     public static final DeferredItem<BlockItem> WHITE_BISHOP_ITEM = ITEMS.registerSimpleBlockItem("white_bishop", WHITE_BISHOP);
     public static final DeferredItem<BlockItem> WHITE_KING_ITEM = ITEMS.registerSimpleBlockItem("white_king", WHITE_KING);
@@ -53,10 +53,12 @@ public class Chess {
     public static final DeferredItem<BlockItem> BLACK_PAWN_ITEM = ITEMS.registerSimpleBlockItem("black_pawn", BLACK_PAWN);
     public static final DeferredItem<BlockItem> BLACK_QUEEN_ITEM = ITEMS.registerSimpleBlockItem("black_queen", BLACK_QUEEN);
     public static final DeferredItem<BlockItem> BLACK_ROOK_ITEM = ITEMS.registerSimpleBlockItem("black_rook", BLACK_ROOK);
-    // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "chess" namespace
+    // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "simple_simple_chess" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-    // Creates a creative tab with the id "chess:example_tab" for the example item, that is placed after the combat tab
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("chess_tab", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.chess")) //The language key for the title of your CreativeModeTab
+    // Creates a creative tab with the id "simple_simple_simple_chess:example_tab" for the example item, that is placed after the combat tab
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register(
+            "chess_tab", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.simple_chess")) //The
+                    // language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT).icon(() -> WHITE_PAWN_ITEM.get().getDefaultInstance()).displayItems((parameters, output) -> {
                 // sort by piece value
                 output.accept(WHITE_PAWN_ITEM.get());
