@@ -1,24 +1,16 @@
-## Installation information
+# Chess
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+<p><img alt="banner" src="images/board.png" style="display: block; margin: 0 auto;"></p>
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+This mod adds chess pieces into Minecraft. They are crafted in *Stonecutter*
+with *Block of Quartz* and *Blackstone*. And you can grab pieces by right
+clicking them with an empty hand.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+<p><img alt="recipes of white pieces" src="images/stonecutter-white.png" style="display: block; margin: 0 auto;"></p>
 
-## Mapping Names
+<p><img alt="recipes of black pieces" src="images/stonecutter-black.png" style="display: block; margin: 0 auto;"></p>
 
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## Credits
 
-## References
-
-- [Linkie](https://linkie.shedaniel.dev/)
 - [NeoForged docs](https://docs.neoforged.net/docs/gettingstarted/)
 - [Low-poly Chess pieces by PhantomEye](https://sketchfab.com/3d-models/low-poly-chess-pieces-2ca0f15ebc544be8a22d4d106ac727ab)
