@@ -13,4 +13,5 @@ clicking them with an empty hand.
 ## Credits
 
 - [NeoForged docs](https://docs.neoforged.net/docs/gettingstarted/)
+- [Fabric Documentation](https://docs.fabricmc.net/)
 - [Low-poly Chess pieces by PhantomEye](https://sketchfab.com/3d-models/low-poly-chess-pieces-2ca0f15ebc544be8a22d4d106ac727ab)

@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "simple_chess",
+	"version": "${version}",
+	"name": "Chess",
+	"description": "Just play chess in Minecraft!",
+	"authors": [
+		"Jax Young"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/simple_chess",
+		"sources": "https://github.com/jaxvanyang/simple_chess"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.jaxvanyang.simple_chess.Chess"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
