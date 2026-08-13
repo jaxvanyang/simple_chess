@@ -4,8 +4,8 @@ import io.github.jaxvanyang.simple_chess.block.*;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.references.BlockItemId;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
@@ -53,20 +53,21 @@ public class ModBlocks {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CHESS_TAB_KEY, CHESS_TAB);
     }
 
-    private static Block register(ResourceKey<Block> id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
-        Block block = blockFactory.apply(properties.setId(id));
+    private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
+        ResourceKey<Block> blockKey = keyOfBlock(name);
+        ResourceKey<Item> itemKey = keyOfItem(name);
+        Block block = blockFactory.apply(properties.setId(blockKey));
+        BlockItem blockItem = new BlockItem(block, new Item.Properties().setId(itemKey).useBlockDescriptionPrefix());
+        Registry.register(BuiltInRegistries.ITEM, itemKey, blockItem);
 
-        return Registry.register(BuiltInRegistries.BLOCK, id, block);
+        return Registry.register(BuiltInRegistries.BLOCK, blockKey, block);
     }
 
-    private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
-        Identifier identifier = Identifier.fromNamespaceAndPath(Chess.MOD_ID, name);
-        BlockItemId id = BlockItemId.create(identifier, identifier);
-        Block block = register(id.block(), blockFactory, properties);
+    private static ResourceKey<Block> keyOfBlock(String name) {
+        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Chess.MOD_ID, name));
+    }
 
-        BlockItem blockItem = new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix().setId(id.item()));
-        Registry.register(BuiltInRegistries.ITEM, id.item(), blockItem);
-
-        return block;
+    private static ResourceKey<Item> keyOfItem(String name) {
+        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Chess.MOD_ID, name));
     }
 }
