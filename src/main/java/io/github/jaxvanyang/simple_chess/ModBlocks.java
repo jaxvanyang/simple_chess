@@ -31,23 +31,7 @@ public class ModBlocks {
     public static final Block BLACK_PAWN = register("black_pawn", Pawn::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
     public static final Block BLACK_QUEEN = register("black_queen", Queen::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
     public static final Block BLACK_ROOK = register("black_rook", Rook::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    //    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(Chess.MOD_ID, "chess_tab"));
-//    public static final CreativeModeTab CHESS_TAB = FabricCreativeModeTab.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).displayItems((params, output) -> {
-//        // sort by piece value
-//        output.accept(WHITE_PAWN);
-//        output.accept(WHITE_KNIGHT);
-//        output.accept(WHITE_BISHOP);
-//        output.accept(WHITE_ROOK);
-//        output.accept(WHITE_QUEEN);
-//        output.accept(WHITE_KING);
-//        output.accept(BLACK_PAWN);
-//        output.accept(BLACK_KNIGHT);
-//        output.accept(BLACK_BISHOP);
-//        output.accept(BLACK_ROOK);
-//        output.accept(BLACK_QUEEN);
-//        output.accept(BLACK_KING);
-//    }).build();
-    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), new ResourceLocation(Chess.MOD_ID, "chess_tab"));
+    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), ResourceLocation.fromNamespaceAndPath(Chess.MOD_ID, "chess_tab"));
     public static final CreativeModeTab CHESS_TAB = FabricItemGroup.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).build();
 
 
@@ -72,7 +56,7 @@ public class ModBlocks {
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
         Block block = blockFactory.apply(properties);
-        ResourceLocation id = new ResourceLocation(Chess.MOD_ID, name);
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(Chess.MOD_ID, name);
         BlockItem blockItem = new BlockItem(block, new Item.Properties());
         Registry.register(BuiltInRegistries.ITEM, id, blockItem);
 
