@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:quartz_block"
   },
-  "result": "simple_chess:white_rook",
-  "count": 1
+  "result": {
+    "count": 1,
+    "id": "simple_chess:white_rook"
+  }
 }

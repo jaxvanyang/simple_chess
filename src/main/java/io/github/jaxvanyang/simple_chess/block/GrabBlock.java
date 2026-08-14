@@ -17,16 +17,16 @@ public class GrabBlock extends Block {
     }
 
     @Override
-    public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player player, InteractionHand interactionHand, BlockHitResult blockHitResult) {
+    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
         if (!player.getMainHandItem().isEmpty()) {
-            return super.use(blockState, level, blockPos, player, interactionHand, blockHitResult);
+            return super.useWithoutItem(state, level, pos, player, hitResult);
         }
 
         if (level.isClientSide()) {
             return InteractionResult.SUCCESS;
         }
 
-        level.setBlock(blockPos, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL);
+        level.setBlock(pos, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL);
         player.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(this));
 
         return InteractionResult.SUCCESS;
