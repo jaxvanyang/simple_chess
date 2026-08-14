@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "result": "simple_chess:black_knight",
+  "count": 1
+}

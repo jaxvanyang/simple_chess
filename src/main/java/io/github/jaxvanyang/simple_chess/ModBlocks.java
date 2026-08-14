@@ -1,13 +1,13 @@
 package io.github.jaxvanyang.simple_chess;
 
 import io.github.jaxvanyang.simple_chess.block.*;
-import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -31,43 +31,51 @@ public class ModBlocks {
     public static final Block BLACK_PAWN = register("black_pawn", Pawn::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
     public static final Block BLACK_QUEEN = register("black_queen", Queen::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
     public static final Block BLACK_ROOK = register("black_rook", Rook::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(Chess.MOD_ID, "chess_tab"));
-    public static final CreativeModeTab CHESS_TAB = FabricCreativeModeTab.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).displayItems((_, output) -> {
-        // sort by piece value
-        output.accept(WHITE_PAWN);
-        output.accept(WHITE_KNIGHT);
-        output.accept(WHITE_BISHOP);
-        output.accept(WHITE_ROOK);
-        output.accept(WHITE_QUEEN);
-        output.accept(WHITE_KING);
-        output.accept(BLACK_PAWN);
-        output.accept(BLACK_KNIGHT);
-        output.accept(BLACK_BISHOP);
-        output.accept(BLACK_ROOK);
-        output.accept(BLACK_QUEEN);
-        output.accept(BLACK_KING);
-    }).build();
+    //    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(Chess.MOD_ID, "chess_tab"));
+//    public static final CreativeModeTab CHESS_TAB = FabricCreativeModeTab.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).displayItems((params, output) -> {
+//        // sort by piece value
+//        output.accept(WHITE_PAWN);
+//        output.accept(WHITE_KNIGHT);
+//        output.accept(WHITE_BISHOP);
+//        output.accept(WHITE_ROOK);
+//        output.accept(WHITE_QUEEN);
+//        output.accept(WHITE_KING);
+//        output.accept(BLACK_PAWN);
+//        output.accept(BLACK_KNIGHT);
+//        output.accept(BLACK_BISHOP);
+//        output.accept(BLACK_ROOK);
+//        output.accept(BLACK_QUEEN);
+//        output.accept(BLACK_KING);
+//    }).build();
+    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), new ResourceLocation(Chess.MOD_ID, "chess_tab"));
+    public static final CreativeModeTab CHESS_TAB = FabricItemGroup.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).build();
 
 
     public static void initialize() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CHESS_TAB_KEY, CHESS_TAB);
+
+        ItemGroupEvents.modifyEntriesEvent(CHESS_TAB_KEY).register(itemGroup -> {
+            itemGroup.accept(WHITE_PAWN);
+            itemGroup.accept(WHITE_KNIGHT);
+            itemGroup.accept(WHITE_BISHOP);
+            itemGroup.accept(WHITE_ROOK);
+            itemGroup.accept(WHITE_QUEEN);
+            itemGroup.accept(WHITE_KING);
+            itemGroup.accept(BLACK_PAWN);
+            itemGroup.accept(BLACK_KNIGHT);
+            itemGroup.accept(BLACK_BISHOP);
+            itemGroup.accept(BLACK_ROOK);
+            itemGroup.accept(BLACK_QUEEN);
+            itemGroup.accept(BLACK_KING);
+        });
     }
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
-        ResourceKey<Block> blockKey = keyOfBlock(name);
-        ResourceKey<Item> itemKey = keyOfItem(name);
-        Block block = blockFactory.apply(properties.setId(blockKey));
-        BlockItem blockItem = new BlockItem(block, new Item.Properties().setId(itemKey).useBlockDescriptionPrefix());
-        Registry.register(BuiltInRegistries.ITEM, itemKey, blockItem);
+        Block block = blockFactory.apply(properties);
+        ResourceLocation id = new ResourceLocation(Chess.MOD_ID, name);
+        BlockItem blockItem = new BlockItem(block, new Item.Properties());
+        Registry.register(BuiltInRegistries.ITEM, id, blockItem);
 
-        return Registry.register(BuiltInRegistries.BLOCK, blockKey, block);
-    }
-
-    private static ResourceKey<Block> keyOfBlock(String name) {
-        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Chess.MOD_ID, name));
-    }
-
-    private static ResourceKey<Item> keyOfItem(String name) {
-        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Chess.MOD_ID, name));
+        return Registry.register(BuiltInRegistries.BLOCK, id, block);
     }
 }
