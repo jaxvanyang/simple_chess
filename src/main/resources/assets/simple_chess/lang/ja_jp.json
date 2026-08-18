@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "チェス",
+  "block.simple_chess.white_bishop": "白のビショップ",
+  "block.simple_chess.white_king": "白のキング",
+  "block.simple_chess.white_knight": "白のナイト",
+  "block.simple_chess.white_pawn": "白のポーン",
+  "block.simple_chess.white_queen": "白のクイーン",
+  "block.simple_chess.white_rook": "白のルーク",
+  "block.simple_chess.black_bishop": "黒のビショップ",
+  "block.simple_chess.black_king": "黒のキング",
+  "block.simple_chess.black_knight": "黒のナイト",
+  "block.simple_chess.black_pawn": "黒のポーン",
+  "block.simple_chess.black_queen": "黒のクイーン",
+  "block.simple_chess.black_rook": "黒のルーク"
+}
