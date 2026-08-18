@@ -4,7 +4,9 @@
 
 This mod adds chess pieces into Minecraft. They are crafted in *Stonecutter*
 with *Block of Quartz* and *Blackstone*. And you can grab pieces by right
-clicking them with an empty hand.
+clicking them with an empty hand, or capture a piece by right clicking one with
+a piece in the main hand (replace the piece block with the one in the main
+hand).
 
 <p><img alt="recipes of white pieces" src="images/stonecutter-white.png" style="display: block; margin: 0 auto;"></p>
 
