@@ -1,5 +1,6 @@
 package io.github.jaxvanyang.simple_chess;
 
+import com.mojang.logging.LogUtils;
 import io.github.jaxvanyang.simple_chess.block.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -15,10 +16,12 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.slf4j.Logger;
 
 @Mod(Chess.MODID)
 public class Chess {
     public static final String MODID = "simple_chess";
+    public static final Logger LOGGER = LogUtils.getLogger();
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     public static final DeferredBlock<Block> WHITE_BISHOP = BLOCKS.registerBlock("white_bishop", Bishop::new, p -> p.mapColor(MapColor.QUARTZ).strength(0.8F, 0.8F).requiresCorrectToolForDrops());
     public static final DeferredBlock<Block> WHITE_KING = BLOCKS.registerBlock("white_king", King::new, p -> p.mapColor(MapColor.QUARTZ).strength(0.8F, 0.8F).requiresCorrectToolForDrops());
