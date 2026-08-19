@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:blackstone"
   },
-  "result": {
-    "count": 1,
-    "id": "simple_chess:black_king"
-  }
+  "result": "simple_chess:black_king",
+  "count": 1
 }

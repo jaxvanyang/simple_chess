@@ -7,7 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -26,45 +25,44 @@ public class GrabBlock extends Block {
         super(properties);
     }
 
-    @Override
-    protected ItemInteractionResult useItemOn(ItemStack itemStack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
-        if (hand == InteractionHand.OFF_HAND || !(itemStack.is(PIECE_ITEM) && itemStack.getCount() == 1 && state.is(PIECE_BLOCK))) {
-            return super.useItemOn(itemStack, state, level, pos, player, hand, hitResult);
-        }
-
-        if (level.isClientSide()) {
-            return ItemInteractionResult.SUCCESS;
-        }
-
-        if (!(itemStack.getItem() instanceof BlockItem blockItem)) {
-            Chess.LOGGER.error("expected block item");
-            return ItemInteractionResult.FAIL;
-        }
-
-        Block block = blockItem.getBlock();
-        BlockState blockState = block.defaultBlockState();
-        if (block instanceof DirectionBlock) {
-            blockState = blockState.setValue(DirectionBlock.FACING, player.getDirection());
-        }
-
-        level.setBlock(pos, blockState, Block.UPDATE_ALL);
-        player.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(this));
-
-        return ItemInteractionResult.SUCCESS;
+    private enum Action {
+        GRAB, CAPTURE,
     }
 
     @Override
-    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
-        if (!player.getMainHandItem().isEmpty()) {
-            return super.useWithoutItem(state, level, pos, player, hitResult);
+    public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player player, InteractionHand interactionHand, BlockHitResult blockHitResult) {
+        ItemStack itemStack = player.getMainHandItem();
+        Action action;
+        if (interactionHand == InteractionHand.MAIN_HAND && itemStack.is(PIECE_ITEM) && itemStack.getCount() == 1 && blockState.is(PIECE_BLOCK)) {
+            action = Action.CAPTURE;
+        } else if (itemStack.isEmpty()) {
+            action = Action.GRAB;
+        } else {
+            return super.use(blockState, level, blockPos, player, interactionHand, blockHitResult);
         }
 
         if (level.isClientSide()) {
             return InteractionResult.SUCCESS;
         }
 
-        level.setBlock(pos, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL);
-        player.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(this));
+        if (action == Action.CAPTURE) {
+            if (!(itemStack.getItem() instanceof BlockItem blockItem)) {
+                Chess.LOGGER.error("expected block item");
+                return InteractionResult.FAIL;
+            }
+
+            Block block = blockItem.getBlock();
+            BlockState state = block.defaultBlockState();
+            if (block instanceof DirectionBlock) {
+                state = state.setValue(DirectionBlock.FACING, player.getDirection());
+            }
+
+            level.setBlock(blockPos, state, Block.UPDATE_ALL);
+            player.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(this));
+        } else {
+            level.setBlock(blockPos, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL);
+            player.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(this));
+        }
 
         return InteractionResult.SUCCESS;
     }
