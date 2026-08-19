@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,14 +30,10 @@ public class ModBlocks {
     public static final Block BLACK_PAWN = register("black_pawn", Pawn::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
     public static final Block BLACK_QUEEN = register("black_queen", Queen::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
     public static final Block BLACK_ROOK = register("black_rook", Rook::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
-    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), new ResourceLocation(Chess.MOD_ID, "chess_tab"));
-    public static final CreativeModeTab CHESS_TAB = FabricItemGroup.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).build();
-
+    public static final CreativeModeTab CHESS_TAB = FabricItemGroup.builder(new ResourceLocation(Chess.MOD_ID, "chess_tab")).icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup" + ".simple_chess")).build();
 
     public static void initialize() {
-        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CHESS_TAB_KEY, CHESS_TAB);
-
-        ItemGroupEvents.modifyEntriesEvent(CHESS_TAB_KEY).register(itemGroup -> {
+        ItemGroupEvents.modifyEntriesEvent(CHESS_TAB).register(itemGroup -> {
             itemGroup.accept(WHITE_PAWN);
             itemGroup.accept(WHITE_KNIGHT);
             itemGroup.accept(WHITE_BISHOP);
