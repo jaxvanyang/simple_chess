@@ -19,34 +19,18 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block WHITE_BISHOP = register("white_bishop", Bishop::new, BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK));
-    public static final Block WHITE_KING = register("white_king", King::new, BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK));
-    public static final Block WHITE_KNIGHT = register("white_knight", Knight::new, BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK));
-    public static final Block WHITE_PAWN = register("white_pawn", Pawn::new, BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK));
-    public static final Block WHITE_QUEEN = register("white_queen", Queen::new, BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK));
-    public static final Block WHITE_ROOK = register("white_rook", Rook::new, BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK));
-    public static final Block BLACK_BISHOP = register("black_bishop", Bishop::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    public static final Block BLACK_KING = register("black_king", King::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    public static final Block BLACK_KNIGHT = register("black_knight", Knight::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    public static final Block BLACK_PAWN = register("black_pawn", Pawn::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    public static final Block BLACK_QUEEN = register("black_queen", Queen::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    public static final Block BLACK_ROOK = register("black_rook", Rook::new, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE));
-    //    public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(Chess.MOD_ID, "chess_tab"));
-//    public static final CreativeModeTab CHESS_TAB = FabricCreativeModeTab.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).displayItems((params, output) -> {
-//        // sort by piece value
-//        output.accept(WHITE_PAWN);
-//        output.accept(WHITE_KNIGHT);
-//        output.accept(WHITE_BISHOP);
-//        output.accept(WHITE_ROOK);
-//        output.accept(WHITE_QUEEN);
-//        output.accept(WHITE_KING);
-//        output.accept(BLACK_PAWN);
-//        output.accept(BLACK_KNIGHT);
-//        output.accept(BLACK_BISHOP);
-//        output.accept(BLACK_ROOK);
-//        output.accept(BLACK_QUEEN);
-//        output.accept(BLACK_KING);
-//    }).build();
+    public static final Block WHITE_BISHOP = register("white_bishop", Bishop::new, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final Block WHITE_KING = register("white_king", King::new, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final Block WHITE_KNIGHT = register("white_knight", Knight::new, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final Block WHITE_PAWN = register("white_pawn", Pawn::new, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final Block WHITE_QUEEN = register("white_queen", Queen::new, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final Block WHITE_ROOK = register("white_rook", Rook::new, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final Block BLACK_BISHOP = register("black_bishop", Bishop::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
+    public static final Block BLACK_KING = register("black_king", King::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
+    public static final Block BLACK_KNIGHT = register("black_knight", Knight::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
+    public static final Block BLACK_PAWN = register("black_pawn", Pawn::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
+    public static final Block BLACK_QUEEN = register("black_queen", Queen::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
+    public static final Block BLACK_ROOK = register("black_rook", Rook::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
     public static final ResourceKey<CreativeModeTab> CHESS_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), new ResourceLocation(Chess.MOD_ID, "chess_tab"));
     public static final CreativeModeTab CHESS_TAB = FabricItemGroup.builder().icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup.simple_chess")).build();
 
