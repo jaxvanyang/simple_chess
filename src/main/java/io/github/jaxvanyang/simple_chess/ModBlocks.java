@@ -1,11 +1,8 @@
 package io.github.jaxvanyang.simple_chess;
 
 import io.github.jaxvanyang.simple_chess.block.*;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,31 +27,31 @@ public class ModBlocks {
     public static final Block BLACK_PAWN = register("black_pawn", Pawn::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
     public static final Block BLACK_QUEEN = register("black_queen", Queen::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
     public static final Block BLACK_ROOK = register("black_rook", Rook::new, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE));
-    public static final CreativeModeTab CHESS_TAB = FabricItemGroup.builder(new ResourceLocation(Chess.MOD_ID, "chess_tab")).icon(() -> new ItemStack(WHITE_PAWN)).title(Component.translatable("itemGroup" + ".simple_chess")).build();
+    public static final CreativeModeTab CHESS_TAB = FabricItemGroupBuilder.create(new ResourceLocation(Chess.MOD_ID, "chess_tab")).icon(() -> new ItemStack(WHITE_PAWN)).appendItems(stacks -> {
+        // sorted by piece value
+        stacks.add(new ItemStack(WHITE_PAWN));
+        stacks.add(new ItemStack(WHITE_KNIGHT));
+        stacks.add(new ItemStack(WHITE_BISHOP));
+        stacks.add(new ItemStack(WHITE_ROOK));
+        stacks.add(new ItemStack(WHITE_QUEEN));
+        stacks.add(new ItemStack(WHITE_KING));
+        stacks.add(new ItemStack(BLACK_PAWN));
+        stacks.add(new ItemStack(BLACK_KNIGHT));
+        stacks.add(new ItemStack(BLACK_BISHOP));
+        stacks.add(new ItemStack(BLACK_ROOK));
+        stacks.add(new ItemStack(BLACK_QUEEN));
+        stacks.add(new ItemStack(BLACK_KING));
+    }).build();
 
     public static void initialize() {
-        ItemGroupEvents.modifyEntriesEvent(CHESS_TAB).register(itemGroup -> {
-            itemGroup.accept(WHITE_PAWN);
-            itemGroup.accept(WHITE_KNIGHT);
-            itemGroup.accept(WHITE_BISHOP);
-            itemGroup.accept(WHITE_ROOK);
-            itemGroup.accept(WHITE_QUEEN);
-            itemGroup.accept(WHITE_KING);
-            itemGroup.accept(BLACK_PAWN);
-            itemGroup.accept(BLACK_KNIGHT);
-            itemGroup.accept(BLACK_BISHOP);
-            itemGroup.accept(BLACK_ROOK);
-            itemGroup.accept(BLACK_QUEEN);
-            itemGroup.accept(BLACK_KING);
-        });
     }
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
         Block block = blockFactory.apply(properties);
         ResourceLocation id = new ResourceLocation(Chess.MOD_ID, name);
         BlockItem blockItem = new BlockItem(block, new Item.Properties());
-        Registry.register(BuiltInRegistries.ITEM, id, blockItem);
+        Registry.register(Registry.ITEM, id, blockItem);
 
-        return Registry.register(BuiltInRegistries.BLOCK, id, block);
+        return Registry.register(Registry.BLOCK, id, block);
     }
 }

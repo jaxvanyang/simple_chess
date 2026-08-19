@@ -1,5 +1,5 @@
 {
-  "itemGroup.simple_chess": "国际象棋",
+  "itemGroup.simple_chess.chess_tab": "国际象棋",
   "block.simple_chess.white_bishop": "白主教",
   "block.simple_chess.white_king": "白王",
   "block.simple_chess.white_knight": "白骑士",

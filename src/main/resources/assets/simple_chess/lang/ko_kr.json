@@ -1,5 +1,5 @@
 {
-  "itemGroup.simple_chess": "체스",
+  "itemGroup.simple_chess.chess_tab": "체스",
   "block.simple_chess.white_bishop": "흰색 비숍",
   "block.simple_chess.white_king": "흰색 킹",
   "block.simple_chess.white_knight": "흰색 나이트",

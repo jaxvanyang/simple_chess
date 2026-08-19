@@ -2,7 +2,7 @@ package io.github.jaxvanyang.simple_chess.block;
 
 import io.github.jaxvanyang.simple_chess.Chess;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionHand;
@@ -18,8 +18,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
 public class GrabBlock extends Block {
-    public static final TagKey<Block> PIECE_BLOCK = TagKey.create(Registries.BLOCK, new ResourceLocation("simple_chess", "chess_piece"));
-    public static final TagKey<Item> PIECE_ITEM = TagKey.create(Registries.ITEM, new ResourceLocation("simple_chess", "chess_piece"));
+    public static final TagKey<Block> PIECE_BLOCK = TagKey.create(Registry.BLOCK.key(), new ResourceLocation("simple_chess", "chess_piece"));
+    public static final TagKey<Item> PIECE_ITEM = TagKey.create(Registry.ITEM.key(), new ResourceLocation("simple_chess", "chess_piece"));
 
     public GrabBlock(Properties properties) {
         super(properties);

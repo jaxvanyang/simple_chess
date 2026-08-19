@@ -1,5 +1,5 @@
 {
-  "itemGroup.simple_chess": "Chess",
+  "itemGroup.simple_chess.chess_tab": "Chess",
   "block.simple_chess.white_bishop": "White Bishop",
   "block.simple_chess.white_king": "White King",
   "block.simple_chess.white_knight": "White Knight",
