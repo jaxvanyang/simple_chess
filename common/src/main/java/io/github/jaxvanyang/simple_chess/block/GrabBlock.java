@@ -1,6 +1,6 @@
 package io.github.jaxvanyang.simple_chess.block;
 
-import io.github.jaxvanyang.simple_chess.Chess;
+import io.github.jaxvanyang.simple_chess.Const;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
@@ -36,7 +36,7 @@ public class GrabBlock extends Block {
         }
 
         if (!(itemStack.getItem() instanceof BlockItem blockItem)) {
-            Chess.LOGGER.error("expected block item");
+            Const.LOG.error("expected block item");
             return InteractionResult.FAIL;
         }
 

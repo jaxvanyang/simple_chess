@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/simple_chess",
+        "sources": "https://github.com/jaxvanyang/simple_chess"
+    },
+    "license": "${license}",
+    "icon": "${mod_id}.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.jaxvanyang.simple_chess.Chess"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "fabric-api": "*",
+        "minecraft": "~${minecraft_version}",
+        "java": ">=${java_version}"
+    }
+}
+  
