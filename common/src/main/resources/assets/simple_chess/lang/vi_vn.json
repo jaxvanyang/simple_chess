@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Cờ vua",
+  "block.simple_chess.white_bishop": "Tượng trắng",
+  "block.simple_chess.white_king": "Vua trắng",
+  "block.simple_chess.white_knight": "Mã trắng",
+  "block.simple_chess.white_pawn": "Tốt trắng",
+  "block.simple_chess.white_queen": "Hậu trắng",
+  "block.simple_chess.white_rook": "Xe trắng",
+  "block.simple_chess.black_bishop": "Tượng đen",
+  "block.simple_chess.black_king": "Vua đen",
+  "block.simple_chess.black_knight": "Mã đen",
+  "block.simple_chess.black_pawn": "Tốt đen",
+  "block.simple_chess.black_queen": "Hậu đen",
+  "block.simple_chess.black_rook": "Xe đen"
+}

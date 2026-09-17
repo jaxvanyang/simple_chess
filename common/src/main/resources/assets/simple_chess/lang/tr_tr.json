@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Satranç",
+  "block.simple_chess.white_bishop": "Beyaz fil",
+  "block.simple_chess.white_king": "Beyaz şah",
+  "block.simple_chess.white_knight": "Beyaz at",
+  "block.simple_chess.white_pawn": "Beyaz piyon",
+  "block.simple_chess.white_queen": "Beyaz vezir",
+  "block.simple_chess.white_rook": "Beyaz kale",
+  "block.simple_chess.black_bishop": "Siyah fil",
+  "block.simple_chess.black_king": "Siyah şah",
+  "block.simple_chess.black_knight": "Siyah at",
+  "block.simple_chess.black_pawn": "Siyah piyon",
+  "block.simple_chess.black_queen": "Siyah vezir",
+  "block.simple_chess.black_rook": "Siyah kale"
+}

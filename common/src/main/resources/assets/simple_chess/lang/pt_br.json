@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Xadrez",
+  "block.simple_chess.white_bishop": "Bispo branco",
+  "block.simple_chess.white_king": "Rei branco",
+  "block.simple_chess.white_knight": "Cavalo branco",
+  "block.simple_chess.white_pawn": "Peão branco",
+  "block.simple_chess.white_queen": "Rainha branca",
+  "block.simple_chess.white_rook": "Torre branca",
+  "block.simple_chess.black_bishop": "Bispo preto",
+  "block.simple_chess.black_king": "Rei preto",
+  "block.simple_chess.black_knight": "Cavalo preto",
+  "block.simple_chess.black_pawn": "Peão preto",
+  "block.simple_chess.black_queen": "Rainha preta",
+  "block.simple_chess.black_rook": "Torre preta"
+}
