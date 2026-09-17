@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "may' Quj",
+  "block.simple_chess.white_bishop": "Qang chIS",
+  "block.simple_chess.white_king": "ta chIS",
+  "block.simple_chess.white_knight": "SuvwI' chIS",
+  "block.simple_chess.white_pawn": "mangHom chIS",
+  "block.simple_chess.white_queen": "ta be' chIS",
+  "block.simple_chess.white_rook": "qach chIS",
+  "block.simple_chess.black_bishop": "Qang qIj",
+  "block.simple_chess.black_king": "ta qIj",
+  "block.simple_chess.black_knight": "SuvwI' qIj",
+  "block.simple_chess.black_pawn": "mangHom qIj",
+  "block.simple_chess.black_queen": "ta be' qIj",
+  "block.simple_chess.black_rook": "qach qIj"
+}

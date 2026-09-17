@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Șah",
+  "block.simple_chess.white_bishop": "Nebun alb",
+  "block.simple_chess.white_king": "Rege alb",
+  "block.simple_chess.white_knight": "Cal alb",
+  "block.simple_chess.white_pawn": "Pion alb",
+  "block.simple_chess.white_queen": "Damă albă",
+  "block.simple_chess.white_rook": "Turn alb",
+  "block.simple_chess.black_bishop": "Nebun negru",
+  "block.simple_chess.black_king": "Rege negru",
+  "block.simple_chess.black_knight": "Cal negru",
+  "block.simple_chess.black_pawn": "Pion negru",
+  "block.simple_chess.black_queen": "Damă neagră",
+  "block.simple_chess.black_rook": "Turn negru"
+}

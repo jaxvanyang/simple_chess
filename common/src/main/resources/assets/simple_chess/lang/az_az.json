@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Şahmat",
+  "block.simple_chess.white_bishop": "Ağ fil",
+  "block.simple_chess.white_king": "Ağ şah",
+  "block.simple_chess.white_knight": "Ağ at",
+  "block.simple_chess.white_pawn": "Ağ piyada",
+  "block.simple_chess.white_queen": "Ağ vəzir",
+  "block.simple_chess.white_rook": "Ağ top",
+  "block.simple_chess.black_bishop": "Qara fil",
+  "block.simple_chess.black_king": "Qara şah",
+  "block.simple_chess.black_knight": "Qara at",
+  "block.simple_chess.black_pawn": "Qara piyada",
+  "block.simple_chess.black_queen": "Qara vəzir",
+  "block.simple_chess.black_rook": "Qara top"
+}

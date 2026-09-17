@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ficheall",
+  "block.simple_chess.white_bishop": "Easpag bán",
+  "block.simple_chess.white_king": "Rí bán",
+  "block.simple_chess.white_knight": "Ridire bán",
+  "block.simple_chess.white_pawn": "Ceithearnach bán",
+  "block.simple_chess.white_queen": "Banríon bhán",
+  "block.simple_chess.white_rook": "Caiseal bán",
+  "block.simple_chess.black_bishop": "Easpag dubh",
+  "block.simple_chess.black_king": "Rí dubh",
+  "block.simple_chess.black_knight": "Ridire dubh",
+  "block.simple_chess.black_pawn": "Ceithearnach dubh",
+  "block.simple_chess.black_queen": "Banríon dhubh",
+  "block.simple_chess.black_rook": "Caiseal dubh"
+}

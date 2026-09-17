@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "ಚದುರಂಗ",
+  "block.simple_chess.white_bishop": "ಬಿಳಿ ಆನೆ",
+  "block.simple_chess.white_king": "ಬಿಳಿ ರಾಜ",
+  "block.simple_chess.white_knight": "ಬಿಳಿ ಕುದುರೆ",
+  "block.simple_chess.white_pawn": "ಬಿಳಿ ಪ್ಯಾದೆ",
+  "block.simple_chess.white_queen": "ಬಿಳಿ ರಾಣಿ",
+  "block.simple_chess.white_rook": "ಬಿಳಿ ರೂಕ್",
+  "block.simple_chess.black_bishop": "ಕಪ್ಪು ಆನೆ",
+  "block.simple_chess.black_king": "ಕಪ್ಪು ರಾಜ",
+  "block.simple_chess.black_knight": "ಕಪ್ಪು ಕುದುರೆ",
+  "block.simple_chess.black_pawn": "ಕಪ್ಪು ಪ್ಯಾದೆ",
+  "block.simple_chess.black_queen": "ಕಪ್ಪು ರಾಣಿ",
+  "block.simple_chess.black_rook": "ಕಪ್ಪು ರೂಕ್"
+}

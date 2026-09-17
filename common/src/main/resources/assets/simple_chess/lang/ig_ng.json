@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Cheesi",
+  "block.simple_chess.white_bishop": "Enyi Ọcha",
+  "block.simple_chess.white_king": "Eze Ọcha",
+  "block.simple_chess.white_knight": "Ịnyịnya Ọcha",
+  "block.simple_chess.white_pawn": "Onye Agha Ọcha",
+  "block.simple_chess.white_queen": "Nwunye Eze Ọcha",
+  "block.simple_chess.white_rook": "Ụlọ Elu Ọcha",
+  "block.simple_chess.black_bishop": "Enyi Ojii",
+  "block.simple_chess.black_king": "Eze Ojii",
+  "block.simple_chess.black_knight": "Ịnyịnya Ojii",
+  "block.simple_chess.black_pawn": "Onye Agha Ojii",
+  "block.simple_chess.black_queen": "Nwunye Eze Ojii",
+  "block.simple_chess.black_rook": "Ụlọ Elu Ojii"
+}

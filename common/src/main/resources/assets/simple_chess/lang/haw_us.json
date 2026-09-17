@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Pāʻani",
+  "block.simple_chess.white_bishop": "ʻElepani Keʻokeʻo",
+  "block.simple_chess.white_king": "Aliʻi Keʻokeʻo",
+  "block.simple_chess.white_knight": "Lio Keʻokeʻo",
+  "block.simple_chess.white_pawn": "Koa Keʻokeʻo",
+  "block.simple_chess.white_queen": "Mōʻī Wahine Keʻokeʻo",
+  "block.simple_chess.white_rook": "Hale Kiaʻi Keʻokeʻo",
+  "block.simple_chess.black_bishop": "ʻElepani ʻEleʻele",
+  "block.simple_chess.black_king": "Aliʻi ʻEleʻele",
+  "block.simple_chess.black_knight": "Lio ʻEleʻele",
+  "block.simple_chess.black_pawn": "Koa ʻEleʻele",
+  "block.simple_chess.black_queen": "Mōʻī Wahine ʻEleʻele",
+  "block.simple_chess.black_rook": "Hale Kiaʻi ʻEleʻele"
+}

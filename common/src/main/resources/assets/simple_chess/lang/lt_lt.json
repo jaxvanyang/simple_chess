@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Šachmatai",
+  "block.simple_chess.white_bishop": "Baltasis rikis",
+  "block.simple_chess.white_king": "Baltasis karalius",
+  "block.simple_chess.white_knight": "Baltasis žirgas",
+  "block.simple_chess.white_pawn": "Baltasis pėstininkas",
+  "block.simple_chess.white_queen": "Baltoji valdovė",
+  "block.simple_chess.white_rook": "Baltasis bokštas",
+  "block.simple_chess.black_bishop": "Juodasis rikis",
+  "block.simple_chess.black_king": "Juodasis karalius",
+  "block.simple_chess.black_knight": "Juodasis žirgas",
+  "block.simple_chess.black_pawn": "Juodasis pėstininkas",
+  "block.simple_chess.black_queen": "Juodoji valdovė",
+  "block.simple_chess.black_rook": "Juodasis bokštas"
+}

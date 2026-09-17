@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ṣẹ́ẹ̀sì",
+  "block.simple_chess.white_bishop": "Erin Funfun",
+  "block.simple_chess.white_king": "Ọba Funfun",
+  "block.simple_chess.white_knight": "Ẹṣin Funfun",
+  "block.simple_chess.white_pawn": "Ọmọ Ogun Funfun",
+  "block.simple_chess.white_queen": "Ayaba Funfun",
+  "block.simple_chess.white_rook": "Ilé Gogoro Funfun",
+  "block.simple_chess.black_bishop": "Erin Dúdú",
+  "block.simple_chess.black_king": "Ọba Dúdú",
+  "block.simple_chess.black_knight": "Ẹṣin Dúdú",
+  "block.simple_chess.black_pawn": "Ọmọ Ogun Dúdú",
+  "block.simple_chess.black_queen": "Ayaba Dúdú",
+  "block.simple_chess.black_rook": "Ilé Gogoro Dúdú"
+}

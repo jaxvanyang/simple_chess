@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Skák",
+  "block.simple_chess.white_bishop": "Hvítur biskup",
+  "block.simple_chess.white_king": "Hvítur kóngur",
+  "block.simple_chess.white_knight": "Hvítur riddari",
+  "block.simple_chess.white_pawn": "Hvítt peð",
+  "block.simple_chess.white_queen": "Hvít drottning",
+  "block.simple_chess.white_rook": "Hvítur hrókur",
+  "block.simple_chess.black_bishop": "Svartur biskup",
+  "block.simple_chess.black_king": "Svartur kóngur",
+  "block.simple_chess.black_knight": "Svartur riddari",
+  "block.simple_chess.black_pawn": "Svart peð",
+  "block.simple_chess.black_queen": "Svört drottning",
+  "block.simple_chess.black_rook": "Svartur hrókur"
+}

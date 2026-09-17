@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ajedré",
+  "block.simple_chess.white_bishop": "Arfil blanco",
+  "block.simple_chess.white_king": "Rey blanco",
+  "block.simple_chess.white_knight": "Caballo blanco",
+  "block.simple_chess.white_pawn": "Peón blanco",
+  "block.simple_chess.white_queen": "Reina blanca",
+  "block.simple_chess.white_rook": "Torre blanca",
+  "block.simple_chess.black_bishop": "Arfil negro",
+  "block.simple_chess.black_king": "Rey negro",
+  "block.simple_chess.black_knight": "Caballo negro",
+  "block.simple_chess.black_pawn": "Peón negro",
+  "block.simple_chess.black_queen": "Reina negra",
+  "block.simple_chess.black_rook": "Torre negra"
+}

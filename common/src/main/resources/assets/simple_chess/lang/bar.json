@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Schach",
+  "block.simple_chess.white_bishop": "Weißa Läufer",
+  "block.simple_chess.white_king": "Weißa Kini",
+  "block.simple_chess.white_knight": "Weißa Springer",
+  "block.simple_chess.white_pawn": "Weißa Bauer",
+  "block.simple_chess.white_queen": "Weiße Dam",
+  "block.simple_chess.white_rook": "Weißa Turm",
+  "block.simple_chess.black_bishop": "Schwarza Läufer",
+  "block.simple_chess.black_king": "Schwarza Kini",
+  "block.simple_chess.black_knight": "Schwarza Springer",
+  "block.simple_chess.black_pawn": "Schwarza Bauer",
+  "block.simple_chess.black_queen": "Schwarze Dam",
+  "block.simple_chess.black_rook": "Schwarza Turm"
+}

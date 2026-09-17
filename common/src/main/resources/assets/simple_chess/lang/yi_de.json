@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "שאָך",
+  "block.simple_chess.white_bishop": "ווײַסער בישאָף",
+  "block.simple_chess.white_king": "ווײַסער קעניג",
+  "block.simple_chess.white_knight": "ווײַסער ריטער",
+  "block.simple_chess.white_pawn": "ווײַסער זעלנער",
+  "block.simple_chess.white_queen": "ווײַסע דאַמע",
+  "block.simple_chess.white_rook": "ווײַסער טורעם",
+  "block.simple_chess.black_bishop": "שוואַרצער בישאָף",
+  "block.simple_chess.black_king": "שוואַרצער קעניג",
+  "block.simple_chess.black_knight": "שוואַרצער ריטער",
+  "block.simple_chess.black_pawn": "שוואַרצער זעלנער",
+  "block.simple_chess.black_queen": "שוואַרצע דאַמע",
+  "block.simple_chess.black_rook": "שוואַרצער טורעם"
+}

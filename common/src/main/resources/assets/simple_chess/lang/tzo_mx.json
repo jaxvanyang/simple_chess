@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ilbajel",
+  "block.simple_chess.white_bishop": "Sak Pale",
+  "block.simple_chess.white_king": "Sak Ajval",
+  "block.simple_chess.white_knight": "Sak Ka",
+  "block.simple_chess.white_pawn": "Sak Vinik",
+  "block.simple_chess.white_queen": "Sak Ajval Ants",
+  "block.simple_chess.white_rook": "Sak Muk'ta Na",
+  "block.simple_chess.black_bishop": "Ihk' Pale",
+  "block.simple_chess.black_king": "Ihk' Ajval",
+  "block.simple_chess.black_knight": "Ihk' Ka",
+  "block.simple_chess.black_pawn": "Ihk' Vinik",
+  "block.simple_chess.black_queen": "Ihk' Ajval Ants",
+  "block.simple_chess.black_rook": "Ihk' Muk'ta Na"
+}

@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Axedrez",
+  "block.simple_chess.white_bishop": "Alfil blancu",
+  "block.simple_chess.white_king": "Rei blancu",
+  "block.simple_chess.white_knight": "Caballu blancu",
+  "block.simple_chess.white_pawn": "Peón blancu",
+  "block.simple_chess.white_queen": "Dama blanca",
+  "block.simple_chess.white_rook": "Torre blanca",
+  "block.simple_chess.black_bishop": "Alfil negru",
+  "block.simple_chess.black_king": "Rei negru",
+  "block.simple_chess.black_knight": "Caballu negru",
+  "block.simple_chess.black_pawn": "Peón negru",
+  "block.simple_chess.black_queen": "Dama negra",
+  "block.simple_chess.black_rook": "Torre negra"
+}

@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Շախմատ",
+  "block.simple_chess.white_bishop": "Սպիտակ փիղ",
+  "block.simple_chess.white_king": "Սպիտակ արքա",
+  "block.simple_chess.white_knight": "Սպիտակ ձի",
+  "block.simple_chess.white_pawn": "Սպիտակ զինվոր",
+  "block.simple_chess.white_queen": "Սպիտակ թագուհի",
+  "block.simple_chess.white_rook": "Սպիտակ նավակ",
+  "block.simple_chess.black_bishop": "Սև փիղ",
+  "block.simple_chess.black_king": "Սև արքա",
+  "block.simple_chess.black_knight": "Սև ձի",
+  "block.simple_chess.black_pawn": "Սև զինվոր",
+  "block.simple_chess.black_queen": "Սև թագուհի",
+  "block.simple_chess.black_rook": "Սև նավակ"
+}

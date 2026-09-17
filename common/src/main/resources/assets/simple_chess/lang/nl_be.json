@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Schaken",
+  "block.simple_chess.white_bishop": "Witte loper",
+  "block.simple_chess.white_king": "Witte koning",
+  "block.simple_chess.white_knight": "Wit paard",
+  "block.simple_chess.white_pawn": "Witte pion",
+  "block.simple_chess.white_queen": "Witte dame",
+  "block.simple_chess.white_rook": "Witte toren",
+  "block.simple_chess.black_bishop": "Zwarte loper",
+  "block.simple_chess.black_king": "Zwarte koning",
+  "block.simple_chess.black_knight": "Zwart paard",
+  "block.simple_chess.black_pawn": "Zwarte pion",
+  "block.simple_chess.black_queen": "Zwarte dame",
+  "block.simple_chess.black_rook": "Zwarte toren"
+}

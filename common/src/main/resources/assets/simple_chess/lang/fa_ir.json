@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "شطرنج",
+  "block.simple_chess.white_bishop": "فیل سفید",
+  "block.simple_chess.white_king": "شاه سفید",
+  "block.simple_chess.white_knight": "اسب سفید",
+  "block.simple_chess.white_pawn": "سرباز سفید",
+  "block.simple_chess.white_queen": "وزیر سفید",
+  "block.simple_chess.white_rook": "رخ سفید",
+  "block.simple_chess.black_bishop": "فیل سیاه",
+  "block.simple_chess.black_king": "شاه سیاه",
+  "block.simple_chess.black_knight": "اسب سیاه",
+  "block.simple_chess.black_pawn": "سرباز سیاه",
+  "block.simple_chess.black_queen": "وزیر سیاه",
+  "block.simple_chess.black_rook": "رخ سیاه"
+}

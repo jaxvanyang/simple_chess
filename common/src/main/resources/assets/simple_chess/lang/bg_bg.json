@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Шахмат",
+  "block.simple_chess.white_bishop": "Бял офицер",
+  "block.simple_chess.white_king": "Бял цар",
+  "block.simple_chess.white_knight": "Бял кон",
+  "block.simple_chess.white_pawn": "Бяла пешка",
+  "block.simple_chess.white_queen": "Бяла царица",
+  "block.simple_chess.white_rook": "Бял топ",
+  "block.simple_chess.black_bishop": "Черен офицер",
+  "block.simple_chess.black_king": "Черен цар",
+  "block.simple_chess.black_knight": "Черен кон",
+  "block.simple_chess.black_pawn": "Черна пешка",
+  "block.simple_chess.black_queen": "Черна царица",
+  "block.simple_chess.black_rook": "Черен топ"
+}

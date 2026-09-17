@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Scacch",
+  "block.simple_chess.white_bishop": "Alfié bianch",
+  "block.simple_chess.white_king": "Re bianch",
+  "block.simple_chess.white_knight": "Cavall bianch",
+  "block.simple_chess.white_pawn": "Pedù bianch",
+  "block.simple_chess.white_queen": "Dòna bianca",
+  "block.simple_chess.white_rook": "Torr bianca",
+  "block.simple_chess.black_bishop": "Alfié negher",
+  "block.simple_chess.black_king": "Re negher",
+  "block.simple_chess.black_knight": "Cavall negher",
+  "block.simple_chess.black_pawn": "Pedù negher",
+  "block.simple_chess.black_queen": "Dòna negra",
+  "block.simple_chess.black_rook": "Torr negra"
+}

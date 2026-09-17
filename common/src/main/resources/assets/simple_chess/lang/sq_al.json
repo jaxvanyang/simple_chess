@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Shah",
+  "block.simple_chess.white_bishop": "Oficer i bardhë",
+  "block.simple_chess.white_king": "Mbret i bardhë",
+  "block.simple_chess.white_knight": "Kalë i bardhë",
+  "block.simple_chess.white_pawn": "Ushtar i bardhë",
+  "block.simple_chess.white_queen": "Mbretëreshë e bardhë",
+  "block.simple_chess.white_rook": "Kala e bardhë",
+  "block.simple_chess.black_bishop": "Oficer i zi",
+  "block.simple_chess.black_king": "Mbret i zi",
+  "block.simple_chess.black_knight": "Kalë i zi",
+  "block.simple_chess.black_pawn": "Ushtar i zi",
+  "block.simple_chess.black_queen": "Mbretëreshë e zezë",
+  "block.simple_chess.black_rook": "Kala e zezë"
+}

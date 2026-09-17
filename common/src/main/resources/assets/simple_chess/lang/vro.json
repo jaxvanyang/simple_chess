@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Malõ",
+  "block.simple_chess.white_bishop": "Valgõ piiskop",
+  "block.simple_chess.white_king": "Valgõ kuningas",
+  "block.simple_chess.white_knight": "Valgõ ratsu",
+  "block.simple_chess.white_pawn": "Valgõ sõtśar",
+  "block.simple_chess.white_queen": "Valgõ kuninganna",
+  "block.simple_chess.white_rook": "Valgõ torn",
+  "block.simple_chess.black_bishop": "Must piiskop",
+  "block.simple_chess.black_king": "Must kuningas",
+  "block.simple_chess.black_knight": "Must ratsu",
+  "block.simple_chess.black_pawn": "Must sõtśar",
+  "block.simple_chess.black_queen": "Must kuninganna",
+  "block.simple_chess.black_rook": "Must torn"
+}

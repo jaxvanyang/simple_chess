@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Shaxmat",
+  "block.simple_chess.white_bishop": "Oq fil",
+  "block.simple_chess.white_king": "Oq shoh",
+  "block.simple_chess.white_knight": "Oq ot",
+  "block.simple_chess.white_pawn": "Oq piyoda",
+  "block.simple_chess.white_queen": "Oq farzin",
+  "block.simple_chess.white_rook": "Oq rux",
+  "block.simple_chess.black_bishop": "Qora fil",
+  "block.simple_chess.black_king": "Qora shoh",
+  "block.simple_chess.black_knight": "Qora ot",
+  "block.simple_chess.black_pawn": "Qora piyoda",
+  "block.simple_chess.black_queen": "Qora farzin",
+  "block.simple_chess.black_rook": "Qora rux"
+}

@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Sjaak",
+  "block.simple_chess.white_bishop": "Witte leuper",
+  "block.simple_chess.white_king": "Witte kunning",
+  "block.simple_chess.white_knight": "Wit paeërd",
+  "block.simple_chess.white_pawn": "Witte pion",
+  "block.simple_chess.white_queen": "Witte dam",
+  "block.simple_chess.white_rook": "Witte taoëre",
+  "block.simple_chess.black_bishop": "Zjwarte leuper",
+  "block.simple_chess.black_king": "Zjwarte kunning",
+  "block.simple_chess.black_knight": "Zjwart paeërd",
+  "block.simple_chess.black_pawn": "Zjwarte pion",
+  "block.simple_chess.black_queen": "Zjwarte dam",
+  "block.simple_chess.black_rook": "Zjwarte taoëre"
+}

@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ahedres",
+  "block.simple_chess.white_bishop": "Puting obispo",
+  "block.simple_chess.white_king": "Puting hari",
+  "block.simple_chess.white_knight": "Puting kabayo",
+  "block.simple_chess.white_pawn": "Puting peon",
+  "block.simple_chess.white_queen": "Puting reyna",
+  "block.simple_chess.white_rook": "Puting tore",
+  "block.simple_chess.black_bishop": "Itim na obispo",
+  "block.simple_chess.black_king": "Itim na hari",
+  "block.simple_chess.black_knight": "Itim na kabayo",
+  "block.simple_chess.black_pawn": "Itim na peon",
+  "block.simple_chess.black_queen": "Itim na reyna",
+  "block.simple_chess.black_rook": "Itim na tore"
+}

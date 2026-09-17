@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "சதுரங்கம்",
+  "block.simple_chess.white_bishop": "வெள்ளை மந்திரி",
+  "block.simple_chess.white_king": "வெள்ளை அரசன்",
+  "block.simple_chess.white_knight": "வெள்ளை குதிரை",
+  "block.simple_chess.white_pawn": "வெள்ளை சிப்பாய்",
+  "block.simple_chess.white_queen": "வெள்ளை அரசி",
+  "block.simple_chess.white_rook": "வெள்ளை யானை",
+  "block.simple_chess.black_bishop": "கருப்பு மந்திரி",
+  "block.simple_chess.black_king": "கருப்பு அரசன்",
+  "block.simple_chess.black_knight": "கருப்பு குதிரை",
+  "block.simple_chess.black_pawn": "கருப்பு சிப்பாய்",
+  "block.simple_chess.black_queen": "கருப்பு அரசி",
+  "block.simple_chess.black_rook": "கருப்பு யானை"
+}

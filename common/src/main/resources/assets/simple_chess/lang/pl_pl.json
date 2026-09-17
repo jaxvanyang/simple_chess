@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Szachy",
+  "block.simple_chess.white_bishop": "Biały goniec",
+  "block.simple_chess.white_king": "Biały król",
+  "block.simple_chess.white_knight": "Biały skoczek",
+  "block.simple_chess.white_pawn": "Biały pionek",
+  "block.simple_chess.white_queen": "Biała dama",
+  "block.simple_chess.white_rook": "Biała wieża",
+  "block.simple_chess.black_bishop": "Czarny goniec",
+  "block.simple_chess.black_king": "Czarny król",
+  "block.simple_chess.black_knight": "Czarny skoczek",
+  "block.simple_chess.black_pawn": "Czarny pionek",
+  "block.simple_chess.black_queen": "Czarna dama",
+  "block.simple_chess.black_rook": "Czarna wieża"
+}

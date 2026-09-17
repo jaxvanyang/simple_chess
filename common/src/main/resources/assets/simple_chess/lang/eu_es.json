@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Xake",
+  "block.simple_chess.white_bishop": "Alfila zuria",
+  "block.simple_chess.white_king": "Errege zuria",
+  "block.simple_chess.white_knight": "Zaldia zuria",
+  "block.simple_chess.white_pawn": "Peoia zuria",
+  "block.simple_chess.white_queen": "Erregina zuria",
+  "block.simple_chess.white_rook": "Dorrea zuria",
+  "block.simple_chess.black_bishop": "Alfila beltza",
+  "block.simple_chess.black_king": "Errege beltza",
+  "block.simple_chess.black_knight": "Zaldia beltza",
+  "block.simple_chess.black_pawn": "Peoia beltza",
+  "block.simple_chess.black_queen": "Erregina beltza",
+  "block.simple_chess.black_rook": "Dorrea beltza"
+}

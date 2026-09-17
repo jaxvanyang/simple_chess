@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Шахмат",
+  "block.simple_chess.white_bishop": "Үрүҥ слон",
+  "block.simple_chess.white_king": "Үрүҥ ыраахтааҕы",
+  "block.simple_chess.white_knight": "Үрүҥ ат",
+  "block.simple_chess.white_pawn": "Үрүҥ пешка",
+  "block.simple_chess.white_queen": "Үрүҥ королева",
+  "block.simple_chess.white_rook": "Үрүҥ ладья",
+  "block.simple_chess.black_bishop": "Хара слон",
+  "block.simple_chess.black_king": "Хара ыраахтааҕы",
+  "block.simple_chess.black_knight": "Хара ат",
+  "block.simple_chess.black_pawn": "Хара пешка",
+  "block.simple_chess.black_queen": "Хара королева",
+  "block.simple_chess.black_rook": "Хара ладья"
+}

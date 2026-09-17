@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Шахы",
+  "block.simple_chess.white_bishop": "Білый фил",
+  "block.simple_chess.white_king": "Білый король",
+  "block.simple_chess.white_knight": "Білый кінь",
+  "block.simple_chess.white_pawn": "Білый пішак",
+  "block.simple_chess.white_queen": "Біла королева",
+  "block.simple_chess.white_rook": "Біла вежа",
+  "block.simple_chess.black_bishop": "Чорный фил",
+  "block.simple_chess.black_king": "Чорный король",
+  "block.simple_chess.black_knight": "Чорный кінь",
+  "block.simple_chess.black_pawn": "Чорный пішак",
+  "block.simple_chess.black_queen": "Чорна королева",
+  "block.simple_chess.black_rook": "Чорна вежа"
+}

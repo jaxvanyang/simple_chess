@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Sakk",
+  "block.simple_chess.white_bishop": "Fehér futó",
+  "block.simple_chess.white_king": "Fehér király",
+  "block.simple_chess.white_knight": "Fehér huszár",
+  "block.simple_chess.white_pawn": "Fehér gyalog",
+  "block.simple_chess.white_queen": "Fehér királynő",
+  "block.simple_chess.white_rook": "Fehér bástya",
+  "block.simple_chess.black_bishop": "Fekete futó",
+  "block.simple_chess.black_king": "Fekete király",
+  "block.simple_chess.black_knight": "Fekete huszár",
+  "block.simple_chess.black_pawn": "Fekete gyalog",
+  "block.simple_chess.black_queen": "Fekete királynő",
+  "block.simple_chess.black_rook": "Fekete bástya"
+}

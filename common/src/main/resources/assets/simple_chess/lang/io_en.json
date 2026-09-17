@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Shako",
+  "block.simple_chess.white_bishop": "Blanka episkopo",
+  "block.simple_chess.white_king": "Blanka rejo",
+  "block.simple_chess.white_knight": "Blanka kavalo",
+  "block.simple_chess.white_pawn": "Blanka piono",
+  "block.simple_chess.white_queen": "Blanka damo",
+  "block.simple_chess.white_rook": "Blanka turmo",
+  "block.simple_chess.black_bishop": "Nigra episkopo",
+  "block.simple_chess.black_king": "Nigra rejo",
+  "block.simple_chess.black_knight": "Nigra kavalo",
+  "block.simple_chess.black_pawn": "Nigra piono",
+  "block.simple_chess.black_queen": "Nigra damo",
+  "block.simple_chess.black_rook": "Nigra turmo"
+}

@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Skaken",
+  "block.simple_chess.white_bishop": "Wyt loper",
+  "block.simple_chess.white_king": "Wyt kening",
+  "block.simple_chess.white_knight": "Wyt hynder",
+  "block.simple_chess.white_pawn": "Wyt pion",
+  "block.simple_chess.white_queen": "Wyt dame",
+  "block.simple_chess.white_rook": "Wyt toer",
+  "block.simple_chess.black_bishop": "Swart loper",
+  "block.simple_chess.black_king": "Swart kening",
+  "block.simple_chess.black_knight": "Swart hynder",
+  "block.simple_chess.black_pawn": "Swart pion",
+  "block.simple_chess.black_queen": "Swart dame",
+  "block.simple_chess.black_rook": "Swart toer"
+}

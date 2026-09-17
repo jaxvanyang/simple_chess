@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "چاتور",
+  "block.simple_chess.white_bishop": "ݢاجه ڤوتيه",
+  "block.simple_chess.white_king": "راج ڤوتيه",
+  "block.simple_chess.white_knight": "کودا ڤوتيه",
+  "block.simple_chess.white_pawn": "بيدق ڤوتيه",
+  "block.simple_chess.white_queen": "راتو ڤوتيه",
+  "block.simple_chess.white_rook": "بنتيڠ ڤوتيه",
+  "block.simple_chess.black_bishop": "ݢاجه هيتم",
+  "block.simple_chess.black_king": "راج هيتم",
+  "block.simple_chess.black_knight": "کودا هيتم",
+  "block.simple_chess.black_pawn": "بيدق هيتم",
+  "block.simple_chess.black_queen": "راتو هيتم",
+  "block.simple_chess.black_rook": "بنتيڠ هيتم"
+}

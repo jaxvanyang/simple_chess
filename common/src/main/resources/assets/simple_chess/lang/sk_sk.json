@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Šach",
+  "block.simple_chess.white_bishop": "Biely strelec",
+  "block.simple_chess.white_king": "Biely kráľ",
+  "block.simple_chess.white_knight": "Biely jazdec",
+  "block.simple_chess.white_pawn": "Biely pešiak",
+  "block.simple_chess.white_queen": "Biela dáma",
+  "block.simple_chess.white_rook": "Biela veža",
+  "block.simple_chess.black_bishop": "Čierny strelec",
+  "block.simple_chess.black_king": "Čierny kráľ",
+  "block.simple_chess.black_knight": "Čierny jazdec",
+  "block.simple_chess.black_pawn": "Čierny pešiak",
+  "block.simple_chess.black_queen": "Čierna dáma",
+  "block.simple_chess.black_rook": "Čierna veža"
+}

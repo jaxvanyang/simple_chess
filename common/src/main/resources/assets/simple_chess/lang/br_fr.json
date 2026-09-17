@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Echedoù",
+  "block.simple_chess.white_bishop": "Eskob gwenn",
+  "block.simple_chess.white_king": "Roue gwenn",
+  "block.simple_chess.white_knight": "Marc'heg gwenn",
+  "block.simple_chess.white_pawn": "Pezh gwenn",
+  "block.simple_chess.white_queen": "Itron wenn",
+  "block.simple_chess.white_rook": "Tour wenn",
+  "block.simple_chess.black_bishop": "Eskob du",
+  "block.simple_chess.black_king": "Roue du",
+  "block.simple_chess.black_knight": "Marc'heg du",
+  "block.simple_chess.black_pawn": "Pezh du",
+  "block.simple_chess.black_queen": "Itron zu",
+  "block.simple_chess.black_rook": "Tour zu"
+}

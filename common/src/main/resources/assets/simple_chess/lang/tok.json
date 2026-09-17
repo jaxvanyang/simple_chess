@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "musi",
+  "block.simple_chess.white_bishop": "jan sewi walo",
+  "block.simple_chess.white_king": "jan lawa walo",
+  "block.simple_chess.white_knight": "soweli walo",
+  "block.simple_chess.white_pawn": "jan utala walo",
+  "block.simple_chess.white_queen": "meli lawa walo",
+  "block.simple_chess.white_rook": "tomo walo",
+  "block.simple_chess.black_bishop": "jan sewi pimeja",
+  "block.simple_chess.black_king": "jan lawa pimeja",
+  "block.simple_chess.black_knight": "soweli pimeja",
+  "block.simple_chess.black_pawn": "jan utala pimeja",
+  "block.simple_chess.black_queen": "meli lawa pimeja",
+  "block.simple_chess.black_rook": "tomo pimeja"
+}

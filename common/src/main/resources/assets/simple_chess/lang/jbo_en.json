@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "caxmati",
+  "block.simple_chess.white_bishop": "blabi xanto",
+  "block.simple_chess.white_king": "blabi raitru",
+  "block.simple_chess.white_knight": "blabi xirma",
+  "block.simple_chess.white_pawn": "blabi sonci",
+  "block.simple_chess.white_queen": "blabi ninmu raitru",
+  "block.simple_chess.white_rook": "blabi dinju",
+  "block.simple_chess.black_bishop": "xekri xanto",
+  "block.simple_chess.black_king": "xekri raitru",
+  "block.simple_chess.black_knight": "xekri xirma",
+  "block.simple_chess.black_pawn": "xekri sonci",
+  "block.simple_chess.black_queen": "xekri ninmu raitru",
+  "block.simple_chess.black_rook": "xekri dinju"
+}
