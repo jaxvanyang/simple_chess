@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Sjattj",
+  "block.simple_chess.white_bishop": "Wait löpare",
+  "block.simple_chess.white_king": "Wait kung",
+  "block.simple_chess.white_knight": "Wait springare",
+  "block.simple_chess.white_pawn": "Wait bonde",
+  "block.simple_chess.white_queen": "Wait dam",
+  "block.simple_chess.white_rook": "Wait torn",
+  "block.simple_chess.black_bishop": "Swart löpare",
+  "block.simple_chess.black_king": "Swart kung",
+  "block.simple_chess.black_knight": "Swart springare",
+  "block.simple_chess.black_pawn": "Swart bonde",
+  "block.simple_chess.black_queen": "Swart dam",
+  "block.simple_chess.black_rook": "Swart torn"
+}
