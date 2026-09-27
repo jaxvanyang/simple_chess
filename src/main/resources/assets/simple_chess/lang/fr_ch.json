@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Échecs",
+  "block.simple_chess.white_bishop": "Fou blanc",
+  "block.simple_chess.white_king": "Roi blanc",
+  "block.simple_chess.white_knight": "Cavalier blanc",
+  "block.simple_chess.white_pawn": "Pion blanc",
+  "block.simple_chess.white_queen": "Dame blanche",
+  "block.simple_chess.white_rook": "Tour blanche",
+  "block.simple_chess.black_bishop": "Fou noir",
+  "block.simple_chess.black_king": "Roi noir",
+  "block.simple_chess.black_knight": "Cavalier noir",
+  "block.simple_chess.black_pawn": "Pion noir",
+  "block.simple_chess.black_queen": "Dame noire",
+  "block.simple_chess.black_rook": "Tour noire"
+}
