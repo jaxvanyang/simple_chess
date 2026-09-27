@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Arantyalië",
+  "block.simple_chess.white_bishop": "Ninque andamunda",
+  "block.simple_chess.white_king": "Ninque aran",
+  "block.simple_chess.white_knight": "Ninque rocco",
+  "block.simple_chess.white_pawn": "Ninque ohtar",
+  "block.simple_chess.white_queen": "Ninque tári",
+  "block.simple_chess.white_rook": "Ninque mindon",
+  "block.simple_chess.black_bishop": "Morna andamunda",
+  "block.simple_chess.black_king": "Morna aran",
+  "block.simple_chess.black_knight": "Morna rocco",
+  "block.simple_chess.black_pawn": "Morna ohtar",
+  "block.simple_chess.black_queen": "Morna tári",
+  "block.simple_chess.black_rook": "Morna mindon"
+}

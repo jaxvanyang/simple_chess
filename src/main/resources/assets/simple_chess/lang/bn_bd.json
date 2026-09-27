@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "দাবা",
+  "block.simple_chess.white_bishop": "সাদা গজ",
+  "block.simple_chess.white_king": "সাদা রাজা",
+  "block.simple_chess.white_knight": "সাদা ঘোড়া",
+  "block.simple_chess.white_pawn": "সাদা বোড়ে",
+  "block.simple_chess.white_queen": "সাদা রানী",
+  "block.simple_chess.white_rook": "সাদা নৌকা",
+  "block.simple_chess.black_bishop": "কালো গজ",
+  "block.simple_chess.black_king": "কালো রাজা",
+  "block.simple_chess.black_knight": "কালো ঘোড়া",
+  "block.simple_chess.black_pawn": "কালো বোড়ে",
+  "block.simple_chess.black_queen": "কালো রানী",
+  "block.simple_chess.black_rook": "কালো নৌকা"
+}
