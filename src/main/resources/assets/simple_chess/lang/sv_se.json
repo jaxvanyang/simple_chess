@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Schack",
+  "block.simple_chess.white_bishop": "Vit löpare",
+  "block.simple_chess.white_king": "Vit kung",
+  "block.simple_chess.white_knight": "Vit springare",
+  "block.simple_chess.white_pawn": "Vit bonde",
+  "block.simple_chess.white_queen": "Vit drottning",
+  "block.simple_chess.white_rook": "Vitt torn",
+  "block.simple_chess.black_bishop": "Svart löpare",
+  "block.simple_chess.black_king": "Svart kung",
+  "block.simple_chess.black_knight": "Svart springare",
+  "block.simple_chess.black_pawn": "Svart bonde",
+  "block.simple_chess.black_queen": "Svart drottning",
+  "block.simple_chess.black_rook": "Svart torn"
+}

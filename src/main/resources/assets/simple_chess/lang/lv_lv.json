@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Šahs",
+  "block.simple_chess.white_bishop": "Baltais laidnis",
+  "block.simple_chess.white_king": "Baltais karalis",
+  "block.simple_chess.white_knight": "Baltais zirdziņš",
+  "block.simple_chess.white_pawn": "Baltais bandinieks",
+  "block.simple_chess.white_queen": "Baltā dāma",
+  "block.simple_chess.white_rook": "Baltais tornis",
+  "block.simple_chess.black_bishop": "Melnais laidnis",
+  "block.simple_chess.black_king": "Melnais karalis",
+  "block.simple_chess.black_knight": "Melnais zirdziņš",
+  "block.simple_chess.black_pawn": "Melnais bandinieks",
+  "block.simple_chess.black_queen": "Melnā dāma",
+  "block.simple_chess.black_rook": "Melnais tornis"
+}
