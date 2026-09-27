@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Chaq",
+  "block.simple_chess.white_bishop": "Fou biau",
+  "block.simple_chess.white_king": "Roi biau",
+  "block.simple_chess.white_knight": "Cavalier biau",
+  "block.simple_chess.white_pawn": "Pion biau",
+  "block.simple_chess.white_queen": "Dame biaude",
+  "block.simple_chess.white_rook": "Tour biaude",
+  "block.simple_chess.black_bishop": "Fou nièr",
+  "block.simple_chess.black_king": "Roi nièr",
+  "block.simple_chess.black_knight": "Cavalier nièr",
+  "block.simple_chess.black_pawn": "Pion nièr",
+  "block.simple_chess.black_queen": "Dame nière",
+  "block.simple_chess.black_rook": "Tour nière"
+}

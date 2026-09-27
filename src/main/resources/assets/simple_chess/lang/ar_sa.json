@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "الشطرنج",
+  "block.simple_chess.white_bishop": "الفيل الأبيض",
+  "block.simple_chess.white_king": "الملك الأبيض",
+  "block.simple_chess.white_knight": "الحصان الأبيض",
+  "block.simple_chess.white_pawn": "البيدق الأبيض",
+  "block.simple_chess.white_queen": "الملكة البيضاء",
+  "block.simple_chess.white_rook": "القلعة البيضاء",
+  "block.simple_chess.black_bishop": "الفيل الأسود",
+  "block.simple_chess.black_king": "الملك الأسود",
+  "block.simple_chess.black_knight": "الحصان الأسود",
+  "block.simple_chess.black_pawn": "البيدق الأسود",
+  "block.simple_chess.black_queen": "الملكة السوداء",
+  "block.simple_chess.black_rook": "القلعة السوداء"
+}
