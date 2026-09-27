@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "𐍃𐌺𐌰𐌺𐌺𐍃",
+  "block.simple_chess.white_bishop": "𐍈𐌴𐌹𐍄𐍃 𐌰𐌹𐍀𐌹𐍃𐌺𐌰𐌿𐍀𐌿𐍃",
+  "block.simple_chess.white_king": "𐍈𐌴𐌹𐍄𐍃 𐌸𐌹𐌿𐌳𐌰𐌽𐍃",
+  "block.simple_chess.white_knight": "𐍈𐌴𐌹𐍄𐍃 𐌰𐌹𐍈𐍃",
+  "block.simple_chess.white_pawn": "𐍈𐌴𐌹𐍄𐍃 𐍃𐌺𐌰𐌻𐌺𐍃",
+  "block.simple_chess.white_queen": "𐍈𐌴𐌹𐍄𐌰 𐌵𐌴𐌽𐍃",
+  "block.simple_chess.white_rook": "𐍈𐌴𐌹𐍄 𐌺𐌴𐌻𐌹𐌺𐌽",
+  "block.simple_chess.black_bishop": "𐍃𐍅𐌰𐍂𐍄𐍃 𐌰𐌹𐍀𐌹𐍃𐌺𐌰𐌿𐍀𐌿𐍃",
+  "block.simple_chess.black_king": "𐍃𐍅𐌰𐍂𐍄𐍃 𐌸𐌹𐌿𐌳𐌰𐌽𐍃",
+  "block.simple_chess.black_knight": "𐍃𐍅𐌰𐍂𐍄𐍃 𐌰𐌹𐍈𐍃",
+  "block.simple_chess.black_pawn": "𐍃𐍅𐌰𐍂𐍄𐍃 𐍃𐌺𐌰𐌻𐌺𐍃",
+  "block.simple_chess.black_queen": "𐍃𐍅𐌰𐍂𐍄𐌰 𐌵𐌴𐌽𐍃",
+  "block.simple_chess.black_rook": "𐍃𐍅𐌰𐍂𐍄 𐌺𐌴𐌻𐌹𐌺𐌽"
+}

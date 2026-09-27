@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Shakki",
+  "block.simple_chess.white_bishop": "Valkoinen piispa",
+  "block.simple_chess.white_king": "Valkoinen kuningas",
+  "block.simple_chess.white_knight": "Valkoinen ratsu",
+  "block.simple_chess.white_pawn": "Valkoinen sotilas",
+  "block.simple_chess.white_queen": "Valkoinen kuningatar",
+  "block.simple_chess.white_rook": "Valkoinen torni",
+  "block.simple_chess.black_bishop": "Musta piispa",
+  "block.simple_chess.black_king": "Musta kuningas",
+  "block.simple_chess.black_knight": "Musta ratsu",
+  "block.simple_chess.black_pawn": "Musta sotilas",
+  "block.simple_chess.black_queen": "Musta kuningatar",
+  "block.simple_chess.black_rook": "Musta torni"
+}

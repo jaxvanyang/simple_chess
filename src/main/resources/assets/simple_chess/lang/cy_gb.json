@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Gwyddbwyll",
+  "block.simple_chess.white_bishop": "Esgob gwyn",
+  "block.simple_chess.white_king": "Brenin gwyn",
+  "block.simple_chess.white_knight": "Marchog gwyn",
+  "block.simple_chess.white_pawn": "Gwerinwr gwyn",
+  "block.simple_chess.white_queen": "Brenhines wen",
+  "block.simple_chess.white_rook": "Castell gwyn",
+  "block.simple_chess.black_bishop": "Esgob du",
+  "block.simple_chess.black_king": "Brenin du",
+  "block.simple_chess.black_knight": "Marchog du",
+  "block.simple_chess.black_pawn": "Gwerinwr du",
+  "block.simple_chess.black_queen": "Brenhines ddu",
+  "block.simple_chess.black_rook": "Castell du"
+}

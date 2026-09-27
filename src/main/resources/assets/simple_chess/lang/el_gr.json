@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Σκάκι",
+  "block.simple_chess.white_bishop": "Λευκός αξιωματικός",
+  "block.simple_chess.white_king": "Λευκός βασιλιάς",
+  "block.simple_chess.white_knight": "Λευκός ίππος",
+  "block.simple_chess.white_pawn": "Λευκό πιόνι",
+  "block.simple_chess.white_queen": "Λευκή βασίλισσα",
+  "block.simple_chess.white_rook": "Λευκός πύργος",
+  "block.simple_chess.black_bishop": "Μαύρος αξιωματικός",
+  "block.simple_chess.black_king": "Μαύρος βασιλιάς",
+  "block.simple_chess.black_knight": "Μαύρος ίππος",
+  "block.simple_chess.black_pawn": "Μαύρο πιόνι",
+  "block.simple_chess.black_queen": "Μαύρη βασίλισσα",
+  "block.simple_chess.black_rook": "Μαύρος πύργος"
+}
