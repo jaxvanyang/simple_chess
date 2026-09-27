@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Gwydhbol",
+  "block.simple_chess.white_bishop": "Epskop gwynn",
+  "block.simple_chess.white_king": "Myghtern gwynn",
+  "block.simple_chess.white_knight": "Marghek gwynn",
+  "block.simple_chess.white_pawn": "Gwerinor gwynn",
+  "block.simple_chess.white_queen": "Myghternes wynn",
+  "block.simple_chess.white_rook": "Kastell gwynn",
+  "block.simple_chess.black_bishop": "Epskop du",
+  "block.simple_chess.black_king": "Myghtern du",
+  "block.simple_chess.black_knight": "Marghek du",
+  "block.simple_chess.black_pawn": "Gwerinor du",
+  "block.simple_chess.black_queen": "Myghternes dhu",
+  "block.simple_chess.black_rook": "Kastell du"
+}
