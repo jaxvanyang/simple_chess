@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "शतरंज",
+  "block.simple_chess.white_bishop": "सफ़ेद ऊंट",
+  "block.simple_chess.white_king": "सफ़ेद राजा",
+  "block.simple_chess.white_knight": "सफ़ेद घोड़ा",
+  "block.simple_chess.white_pawn": "सफ़ेद प्यादा",
+  "block.simple_chess.white_queen": "सफ़ेद रानी",
+  "block.simple_chess.white_rook": "सफ़ेद हाथी",
+  "block.simple_chess.black_bishop": "काला ऊंट",
+  "block.simple_chess.black_king": "काला राजा",
+  "block.simple_chess.black_knight": "काला घोड़ा",
+  "block.simple_chess.black_pawn": "काला प्यादा",
+  "block.simple_chess.black_queen": "काली रानी",
+  "block.simple_chess.black_rook": "काला हाथी"
+}
