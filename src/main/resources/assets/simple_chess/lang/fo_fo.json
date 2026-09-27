@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Talv",
+  "block.simple_chess.white_bishop": "Hvítur bispur",
+  "block.simple_chess.white_king": "Hvítur kongur",
+  "block.simple_chess.white_knight": "Hvítur riddari",
+  "block.simple_chess.white_pawn": "Hvít finna",
+  "block.simple_chess.white_queen": "Hvít frúgv",
+  "block.simple_chess.white_rook": "Hvítur rókur",
+  "block.simple_chess.black_bishop": "Svartur bispur",
+  "block.simple_chess.black_king": "Svartur kongur",
+  "block.simple_chess.black_knight": "Svartur riddari",
+  "block.simple_chess.black_pawn": "Svört finna",
+  "block.simple_chess.black_queen": "Svört frúgv",
+  "block.simple_chess.black_rook": "Svartur rókur"
+}
