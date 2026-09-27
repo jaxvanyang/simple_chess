@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Scacchi",
+  "block.simple_chess.white_bishop": "Alfiere bianco",
+  "block.simple_chess.white_king": "Re bianco",
+  "block.simple_chess.white_knight": "Cavallo bianco",
+  "block.simple_chess.white_pawn": "Pedone bianco",
+  "block.simple_chess.white_queen": "Donna bianca",
+  "block.simple_chess.white_rook": "Torre bianca",
+  "block.simple_chess.black_bishop": "Alfiere nero",
+  "block.simple_chess.black_king": "Re nero",
+  "block.simple_chess.black_knight": "Cavallo nero",
+  "block.simple_chess.black_pawn": "Pedone nero",
+  "block.simple_chess.black_queen": "Donna nera",
+  "block.simple_chess.black_rook": "Torre nera"
+}
