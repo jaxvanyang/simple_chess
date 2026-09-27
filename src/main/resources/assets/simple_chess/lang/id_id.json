@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Catur",
+  "block.simple_chess.white_bishop": "Uskup putih",
+  "block.simple_chess.white_king": "Raja putih",
+  "block.simple_chess.white_knight": "Kuda putih",
+  "block.simple_chess.white_pawn": "Pion putih",
+  "block.simple_chess.white_queen": "Ratu putih",
+  "block.simple_chess.white_rook": "Benteng putih",
+  "block.simple_chess.black_bishop": "Uskup hitam",
+  "block.simple_chess.black_king": "Raja hitam",
+  "block.simple_chess.black_knight": "Kuda hitam",
+  "block.simple_chess.black_pawn": "Pion hitam",
+  "block.simple_chess.black_queen": "Ratu hitam",
+  "block.simple_chess.black_rook": "Benteng hitam"
+}
