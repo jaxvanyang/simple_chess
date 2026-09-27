@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Шатар",
+  "block.simple_chess.white_bishop": "Цагаан тэмээ",
+  "block.simple_chess.white_king": "Цагаан хаан",
+  "block.simple_chess.white_knight": "Цагаан морь",
+  "block.simple_chess.white_pawn": "Цагаан хүү",
+  "block.simple_chess.white_queen": "Цагаан бэрс",
+  "block.simple_chess.white_rook": "Цагаан тэрэг",
+  "block.simple_chess.black_bishop": "Хар тэмээ",
+  "block.simple_chess.black_king": "Хар хаан",
+  "block.simple_chess.black_knight": "Хар морь",
+  "block.simple_chess.black_pawn": "Хар хүү",
+  "block.simple_chess.black_queen": "Хар бэрс",
+  "block.simple_chess.black_rook": "Хар тэрэг"
+}

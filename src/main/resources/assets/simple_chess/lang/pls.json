@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ajedres",
+  "block.simple_chess.white_bishop": "Alfil Blanko",
+  "block.simple_chess.white_king": "Rey Blanko",
+  "block.simple_chess.white_knight": "Kabayo Blanko",
+  "block.simple_chess.white_pawn": "Peon Blanko",
+  "block.simple_chess.white_queen": "Reina Blanka",
+  "block.simple_chess.white_rook": "Tore Blanka",
+  "block.simple_chess.black_bishop": "Alfil Negro",
+  "block.simple_chess.black_king": "Rey Negro",
+  "block.simple_chess.black_knight": "Kabayo Negro",
+  "block.simple_chess.black_pawn": "Peon Negro",
+  "block.simple_chess.black_queen": "Reina Negra",
+  "block.simple_chess.black_rook": "Tore Negra"
+}
