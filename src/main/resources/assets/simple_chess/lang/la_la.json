@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Scacci",
+  "block.simple_chess.white_bishop": "Episcopus albus",
+  "block.simple_chess.white_king": "Rex albus",
+  "block.simple_chess.white_knight": "Eques albus",
+  "block.simple_chess.white_pawn": "Pedes albus",
+  "block.simple_chess.white_queen": "Regina alba",
+  "block.simple_chess.white_rook": "Turris alba",
+  "block.simple_chess.black_bishop": "Episcopus niger",
+  "block.simple_chess.black_king": "Rex niger",
+  "block.simple_chess.black_knight": "Eques niger",
+  "block.simple_chess.black_pawn": "Pedes niger",
+  "block.simple_chess.black_queen": "Regina nigra",
+  "block.simple_chess.black_rook": "Turris nigra"
+}
