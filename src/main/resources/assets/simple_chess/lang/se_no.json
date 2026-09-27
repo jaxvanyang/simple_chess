@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Šahkki",
+  "block.simple_chess.white_bishop": "Vilges bisma",
+  "block.simple_chess.white_king": "Vilges gonagas",
+  "block.simple_chess.white_knight": "Vilges heasta",
+  "block.simple_chess.white_pawn": "Vilges boanda",
+  "block.simple_chess.white_queen": "Vilges dronninga",
+  "block.simple_chess.white_rook": "Vilges toardna",
+  "block.simple_chess.black_bishop": "Čáhppes bisma",
+  "block.simple_chess.black_king": "Čáhppes gonagas",
+  "block.simple_chess.black_knight": "Čáhppes heasta",
+  "block.simple_chess.black_pawn": "Čáhppes boanda",
+  "block.simple_chess.black_queen": "Čáhppes dronninga",
+  "block.simple_chess.black_rook": "Čáhppes toardna"
+}
