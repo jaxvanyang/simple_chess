@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Tàileasg",
+  "block.simple_chess.white_bishop": "Easbaig geal",
+  "block.simple_chess.white_king": "Rìgh geal",
+  "block.simple_chess.white_knight": "Ridire geal",
+  "block.simple_chess.white_pawn": "Saighdear geal",
+  "block.simple_chess.white_queen": "Banrigh gheal",
+  "block.simple_chess.white_rook": "Caisteal geal",
+  "block.simple_chess.black_bishop": "Easbaig dubh",
+  "block.simple_chess.black_king": "Rìgh dubh",
+  "block.simple_chess.black_knight": "Ridire dubh",
+  "block.simple_chess.black_pawn": "Saighdear dubh",
+  "block.simple_chess.black_queen": "Banrigh dhubh",
+  "block.simple_chess.black_rook": "Caisteal dubh"
+}

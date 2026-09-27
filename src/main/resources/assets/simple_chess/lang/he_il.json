@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "שחמט",
+  "block.simple_chess.white_bishop": "רץ לבן",
+  "block.simple_chess.white_king": "מלך לבן",
+  "block.simple_chess.white_knight": "פרש לבן",
+  "block.simple_chess.white_pawn": "חייל לבן",
+  "block.simple_chess.white_queen": "מלכה לבנה",
+  "block.simple_chess.white_rook": "צריח לבן",
+  "block.simple_chess.black_bishop": "רץ שחור",
+  "block.simple_chess.black_king": "מלך שחור",
+  "block.simple_chess.black_knight": "פרש שחור",
+  "block.simple_chess.black_pawn": "חייל שחור",
+  "block.simple_chess.black_queen": "מלכה שחורה",
+  "block.simple_chess.black_rook": "צריח שחור"
+}
