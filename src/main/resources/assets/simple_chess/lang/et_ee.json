@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Male",
+  "block.simple_chess.white_bishop": "Valge oda",
+  "block.simple_chess.white_king": "Valge kuningas",
+  "block.simple_chess.white_knight": "Valge ratsu",
+  "block.simple_chess.white_pawn": "Valge ettur",
+  "block.simple_chess.white_queen": "Valge lipp",
+  "block.simple_chess.white_rook": "Valge vanker",
+  "block.simple_chess.black_bishop": "Must oda",
+  "block.simple_chess.black_king": "Must kuningas",
+  "block.simple_chess.black_knight": "Must ratsu",
+  "block.simple_chess.black_pawn": "Must ettur",
+  "block.simple_chess.black_queen": "Must lipp",
+  "block.simple_chess.black_rook": "Must vanker"
+}
