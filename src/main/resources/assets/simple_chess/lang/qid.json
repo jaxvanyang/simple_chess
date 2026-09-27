@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Tjatour",
+  "block.simple_chess.white_bishop": "Gadjah Poetih",
+  "block.simple_chess.white_king": "Radja Poetih",
+  "block.simple_chess.white_knight": "Koeda Poetih",
+  "block.simple_chess.white_pawn": "Pion Poetih",
+  "block.simple_chess.white_queen": "Ratoe Poetih",
+  "block.simple_chess.white_rook": "Benteng Poetih",
+  "block.simple_chess.black_bishop": "Gadjah Hitam",
+  "block.simple_chess.black_king": "Radja Hitam",
+  "block.simple_chess.black_knight": "Koeda Hitam",
+  "block.simple_chess.black_pawn": "Pion Hitam",
+  "block.simple_chess.black_queen": "Ratoe Hitam",
+  "block.simple_chess.black_rook": "Benteng Hitam"
+}

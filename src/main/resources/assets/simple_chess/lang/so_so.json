@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Shax",
+  "block.simple_chess.white_bishop": "Wadaad cad",
+  "block.simple_chess.white_king": "Boqor cad",
+  "block.simple_chess.white_knight": "Faras cad",
+  "block.simple_chess.white_pawn": "Askari cad",
+  "block.simple_chess.white_queen": "Boqorad cad",
+  "block.simple_chess.white_rook": "Qalcad cad",
+  "block.simple_chess.black_bishop": "Wadaad madow",
+  "block.simple_chess.black_king": "Boqor madow",
+  "block.simple_chess.black_knight": "Faras madow",
+  "block.simple_chess.black_pawn": "Askari madow",
+  "block.simple_chess.black_queen": "Boqorad madow",
+  "block.simple_chess.black_rook": "Qalcad madow"
+}
