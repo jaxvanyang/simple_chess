@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "ჭადრაკი",
+  "block.simple_chess.white_bishop": "თეთრი ეპისკოპოსი",
+  "block.simple_chess.white_king": "თეთრი მეფე",
+  "block.simple_chess.white_knight": "თეთრი მხედარი",
+  "block.simple_chess.white_pawn": "თეთრი პაიკი",
+  "block.simple_chess.white_queen": "თეთრი დედოფალი",
+  "block.simple_chess.white_rook": "თეთრი ეტლი",
+  "block.simple_chess.black_bishop": "შავი ეპისკოპოსი",
+  "block.simple_chess.black_king": "შავი მეფე",
+  "block.simple_chess.black_knight": "შავი მხედარი",
+  "block.simple_chess.black_pawn": "შავი პაიკი",
+  "block.simple_chess.black_queen": "შავი დედოფალი",
+  "block.simple_chess.black_rook": "შავი ეტლი"
+}
