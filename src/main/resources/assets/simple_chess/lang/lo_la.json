@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "ໝາກຮຸກ",
+  "block.simple_chess.white_bishop": "ຄວາຍຂາວ",
+  "block.simple_chess.white_king": "ຂຸນຂາວ",
+  "block.simple_chess.white_knight": "ມ້າຂາວ",
+  "block.simple_chess.white_pawn": "ເບ້ຍຂາວ",
+  "block.simple_chess.white_queen": "ລາຊິນີຂາວ",
+  "block.simple_chess.white_rook": "ເຮືອຂາວ",
+  "block.simple_chess.black_bishop": "ຄວາຍດຳ",
+  "block.simple_chess.black_king": "ຂຸນດຳ",
+  "block.simple_chess.black_knight": "ມ້າດຳ",
+  "block.simple_chess.black_pawn": "ເບ້ຍດຳ",
+  "block.simple_chess.black_queen": "ລາຊິນີດຳ",
+  "block.simple_chess.black_rook": "ເຮືອດຳ"
+}

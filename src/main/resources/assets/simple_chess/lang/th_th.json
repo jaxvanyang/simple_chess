@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "หมากรุก",
+  "block.simple_chess.white_bishop": "บิชอปขาว",
+  "block.simple_chess.white_king": "คิงขาว",
+  "block.simple_chess.white_knight": "อัศวินขาว",
+  "block.simple_chess.white_pawn": "เบี้ยขาว",
+  "block.simple_chess.white_queen": "ควีนขาว",
+  "block.simple_chess.white_rook": "เรือขาว",
+  "block.simple_chess.black_bishop": "บิชอปดำ",
+  "block.simple_chess.black_king": "คิงดำ",
+  "block.simple_chess.black_knight": "อัศวินดำ",
+  "block.simple_chess.black_pawn": "เบี้ยดำ",
+  "block.simple_chess.black_queen": "ควีนดำ",
+  "block.simple_chess.black_rook": "เรือดำ"
+}
