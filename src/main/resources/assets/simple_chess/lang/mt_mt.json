@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Ċess",
+  "block.simple_chess.white_bishop": "Isqof abjad",
+  "block.simple_chess.white_king": "Re abjad",
+  "block.simple_chess.white_knight": "Żiemel abjad",
+  "block.simple_chess.white_pawn": "Pjun abjad",
+  "block.simple_chess.white_queen": "Reġina bajda",
+  "block.simple_chess.white_rook": "Torri abjad",
+  "block.simple_chess.black_bishop": "Isqof iswed",
+  "block.simple_chess.black_king": "Re iswed",
+  "block.simple_chess.black_knight": "Żiemel iswed",
+  "block.simple_chess.black_pawn": "Pjun iswed",
+  "block.simple_chess.black_queen": "Reġina sewda",
+  "block.simple_chess.black_rook": "Torri iswed"
+}
