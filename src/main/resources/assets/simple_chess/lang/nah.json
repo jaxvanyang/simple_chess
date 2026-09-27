@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Patolli",
+  "block.simple_chess.white_bishop": "Istac Cuāuhtli",
+  "block.simple_chess.white_king": "Istac Tlatoani",
+  "block.simple_chess.white_knight": "Istac Cahuāyō",
+  "block.simple_chess.white_pawn": "Istac Yāōqui",
+  "block.simple_chess.white_queen": "Istac Cihuātlatoani",
+  "block.simple_chess.white_rook": "Istac Tzacualli",
+  "block.simple_chess.black_bishop": "Tliltic Cuāuhtli",
+  "block.simple_chess.black_king": "Tliltic Tlatoani",
+  "block.simple_chess.black_knight": "Tliltic Cahuāyō",
+  "block.simple_chess.black_pawn": "Tliltic Yāōqui",
+  "block.simple_chess.black_queen": "Tliltic Cihuātlatoani",
+  "block.simple_chess.black_rook": "Tliltic Tzacualli"
+}
