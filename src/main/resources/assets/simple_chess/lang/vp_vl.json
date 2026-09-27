@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "sjakk",
+  "block.simple_chess.white_bishop": "hvit biskop",
+  "block.simple_chess.white_king": "hvit kong",
+  "block.simple_chess.white_knight": "hvit hest",
+  "block.simple_chess.white_pawn": "hvit bonde",
+  "block.simple_chess.white_queen": "hvit dronning",
+  "block.simple_chess.white_rook": "hvit tårn",
+  "block.simple_chess.black_bishop": "svart biskop",
+  "block.simple_chess.black_king": "svart kong",
+  "block.simple_chess.black_knight": "svart hest",
+  "block.simple_chess.black_pawn": "svart bonde",
+  "block.simple_chess.black_queen": "svart dronning",
+  "block.simple_chess.black_rook": "svart tårn"
+}
