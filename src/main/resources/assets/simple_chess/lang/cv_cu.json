@@ -1,0 +1,15 @@
+{
+  "itemGroup.simple_chess": "Шахмат",
+  "block.simple_chess.white_bishop": "Шурӑ фил",
+  "block.simple_chess.white_king": "Шурӑ патша",
+  "block.simple_chess.white_knight": "Шурӑ ат",
+  "block.simple_chess.white_pawn": "Шурӑ пешка",
+  "block.simple_chess.white_queen": "Шурӑ ферзь",
+  "block.simple_chess.white_rook": "Шурӑ ладья",
+  "block.simple_chess.black_bishop": "Хура фил",
+  "block.simple_chess.black_king": "Хура патша",
+  "block.simple_chess.black_knight": "Хура ат",
+  "block.simple_chess.black_pawn": "Хура пешка",
+  "block.simple_chess.black_queen": "Хура ферзь",
+  "block.simple_chess.black_rook": "Хура ладья"
+}
